@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Шапка */
+
+header {
+    height: 698px;
+    background: url(/img/Header-img.png) no-repeat;
+    background-size: 100%;
+    background-color: #c01e0f;
+}
+
+/* Логотип */
+
+.header-logo {
+    margin-top: 38px;
+    margin-left: 0;
+}
+
+/* Главное меню */
+
+.main-menu {
+    margin-top: 71px;
+    margin-left: 197px;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+/* Главный текст */
+
+.header-text {
+    margin-top: 132px;
+}
+
+.header-text h1 {
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: -1.8px;
+    color: #130e27;
+}
+
+.header-text #data2 {
+    color: #ffffff;
+}
+
+.header-text p {
+    height: 75px;
+    width: 466px;
+    color: #fff;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    margin-left: 10px;
+}
+
+.main-form {
+    width: 400px;
+    height: 520px;
+    box-shadow: 1px 5px 32px 6px rgba(137, 137, 137, 0.71);
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 115px;
+    position: absolute;
+    bottom: -655px;
+}
+
+.main-form h3 {
+    color: #130e27;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+    text-align: center;
+    padding-top: 33px;
+}
+
+.main-form input {
+    width: 353px;
+    height: 57px;
+    background-color: #eeeeee;
+    margin: 16px 24px;
+}
+.main-form ::-webkit-input-placeholder {
+font-family: "PT Serif";
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.4px;
+}
+.main-form p{
+    color: #130e27;
+font-family: "PT Serif";
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.4px;
+text-align: center;
+margin-top: 27px;
+}
+.main-form button {
+    width: 353px;
+height: 57px;
+background-color: #c62314;
+text-align: center;
+margin: 24px 28px;
+}
