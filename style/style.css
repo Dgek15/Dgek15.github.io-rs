@@ -26,6 +26,8 @@ header {
     margin-left: 197px;
 }
 
+/* Списки */
+
 .main-menu li {
     display: inline;
     margin-right: 30px;
@@ -40,6 +42,7 @@ header {
 
 .header-text {
     margin-top: 132px;
+    font-family: Montserrat;
 }
 
 .header-text h1 {
@@ -57,7 +60,7 @@ header {
 
 .header-text p {
     height: 75px;
-    width: 466px;
+    max-width: 466px;
     color: #fff;
     font-family: "PT Serif";
     font-size: 20px;
@@ -67,8 +70,10 @@ header {
     margin-left: 10px;
 }
 
+/* Главная форма */
+
 .main-form {
-    width: 400px;
+    max-width: 400px;
     height: 520px;
     box-shadow: 1px 5px 32px 6px rgba(137, 137, 137, 0.71);
     background-color: #ffffff;
@@ -77,6 +82,8 @@ header {
     position: absolute;
     bottom: -655px;
 }
+
+/* Заголовок формы */
 
 .main-form h3 {
     color: #130e27;
@@ -88,33 +95,289 @@ header {
     padding-top: 33px;
 }
 
+/* Поля ввода */
+
 .main-form input {
-    width: 353px;
+    max-width: 353px;
     height: 57px;
     background-color: #eeeeee;
     margin: 16px 24px;
 }
+
+/* Стили для плэйсхолдера */
+
 .main-form ::-webkit-input-placeholder {
-font-family: "PT Serif";
-font-size: 20px;
-font-weight: 400;
-line-height: 25px;
-letter-spacing: -0.4px;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.4px;
 }
-.main-form p{
+
+/* Подтекст */
+
+.main-form p {
     color: #130e27;
-font-family: "PT Serif";
-font-size: 20px;
-font-weight: 400;
-line-height: 25px;
-letter-spacing: -0.4px;
-text-align: center;
-margin-top: 27px;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    margin-top: 27px;
 }
+
+/* Кнопка */
+
 .main-form button {
     width: 353px;
-height: 57px;
-background-color: #c62314;
-text-align: center;
-margin: 24px 28px;
+    height: 57px;
+    background-color: #c62314;
+    text-align: center;
+    margin: 24px 28px;
+}
+
+/* Сервис контент */
+
+.services {
+    width: 100%;
+    height: 485px;
+}
+
+.services-text strong {
+    color: #130e27;
+    font-family: Couture;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+.services-text #data3 {
+    color: #c62314;
+    letter-spacing: -1px;
+}
+
+.services-content-p {
+    color: #161616;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+
+.services-text {
+    margin-top: 45px;
+    margin-bottom: 95px;
+}
+
+.services-content {
+    margin-left: 0px;
+}
+
+/* Центральный футер */
+
+.mid-footer {
+    max-width: 100%;
+    height: 123px;
+    background-color: #130e27;
+}
+
+.mid-footer p {
+    color: #ffffff;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 34px;
+}
+
+.mid-footer button {
+    width: 353px;
+    height: 57px;
+    background-color: #c62314;
+    text-align: center;
+    margin-top: 34px;
+    position: absolute;
+    left: -25px;
+}
+
+/* Блок с ценами */
+
+.pricing {
+    height: 637px;
+    background-color: #efefef;
+    margin-bottom: 0px;
+}
+
+.pricing #data4 {
+    color: #130e27;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-top: 65px;
+    position: absolute;
+    left: -20px;
+}
+
+.price-block {
+    width: 318px;
+    height: 389px;
+    background-color: #ffffff;
+    margin-right: 22px;
+    margin-top: 159px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.price-block h3 {
+    margin-bottom: 40px;
+    color: #161616;
+    font-family: "PT Serif";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28px;
+    top: 30px;
+}
+
+.corner {
+    width: 100px;
+    height: 80px;
+    background: #f00;
+    text-align: center;
+    line-height: 130px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: -35px;
+    left: -45px;
+}
+
+.price-block h1 {
+    color: #c62314;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.price-block p {
+    color: #161616;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.price-block button {
+    width: 205px;
+    height: 49px;
+    background-color: #130e27;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.price-block .button-text {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+/* Клиенты и отзызвы */
+
+.visitors {
+    height: 580px;
+}
+
+.visitors-header {
+    color: #130e27;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+#data5 {
+    margin-left: 205px;
+    color: #c62314;
+}
+
+#data6 {
+    margin-left: 40px;
+}
+
+.row1 p {
+    margin-top: 60px;
+    width: 336px;
+    height: 75px;
+    color: #161616;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    float: left;
+}
+
+.row1 strong {
+    color: #130e27;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    float: left;
+}
+
+.row1 img {
+    margin-top: 62px;
+}
+
+.first-photo {
+    margin-left: 60px;
+}
+
+.gallery img {
+    margin-right: 20px;
+}
+
+#data7 {
+    color: #c62314;
+}
+
+.photo-href {
+    color: #130e27;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 140px;
+}
+footer {
+    width: 100%;
+    height: 183px;
+background-color: #130e27;
+}
+footer p{
+    color: #ffffff;
+font-family: "PT Serif";
+font-size: 20px;
+font-weight: 400;
+line-height: 22px;
+margin-top: 100px;
+}
+footer span{
+    color: #c62314;
+}
+footer img{
+    margin-top: 63px;
 }
