@@ -81,6 +81,7 @@ header {
     margin-left: 115px;
     position: absolute;
     bottom: -655px;
+    
 }
 
 /* Заголовок формы */
@@ -362,22 +363,96 @@ header {
     text-transform: uppercase;
     margin-left: 140px;
 }
+
+/* Стили для футера */
+
 footer {
     width: 100%;
     height: 183px;
-background-color: #130e27;
+    background-color: #130e27;
 }
-footer p{
+
+footer p {
     color: #ffffff;
-font-family: "PT Serif";
-font-size: 20px;
-font-weight: 400;
-line-height: 22px;
-margin-top: 100px;
+    font-family: "PT Serif";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 100px;
 }
-footer span{
+
+footer span {
     color: #c62314;
 }
-footer img{
+
+footer img {
     margin-top: 63px;
+}
+
+/* @media запросы */
+
+/* Для >1200px */
+
+@media (max-width:1200px) {
+    .header-text {
+        margin-top: 80px;
+    }
+    .header-text p{
+        margin-top: 50px;
+    }
+    .main-menu {
+        margin-left: 60px;
+    }
+    .header-text h1 {
+        font-size: 80px;
+    }
+    .main-form{
+        margin-left: 50px;
+    }
+    .gallery img {
+        margin-right: 10px;
+        width: 90px;
+        height: 90px;
+    }
+    #data5 {
+        margin-left: 160px;
+    }
+    .photo-href {
+        margin-left: 110px;
+    }
+    
+    
+}
+@media(max-width:991px){
+    .header-logo {
+        margin-left: 200px;
+    }
+    .main-menu{
+        margin-left: 120px;
+    }
+    .main-menu li {
+        margin-right: 20px;
+    }
+    .header-text h1 {
+        margin-left: 10px;
+        text-align: center;
+    }
+    .header-text p {
+        margin-top: 0;
+        margin-left: 130px;
+        text-align: center;
+    }
+    .main-form{
+        position: relative;
+        bottom: 0;
+        margin-left: 180px;
+        margin-top: 50px;
+    }
+    .mid-footer button{
+        margin-left: 50px;
+        width: 150px;
+    }
+    .mid-footer p{
+        margin-bottom: 40px;
+    }
 }
